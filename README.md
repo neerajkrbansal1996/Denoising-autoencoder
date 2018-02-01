@@ -1,1 +1,1 @@
-# Image-Denoiser-Using-Autoencoder
+# Image Denoiser Using Autoencoder
