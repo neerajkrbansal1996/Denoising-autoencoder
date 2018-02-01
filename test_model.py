@@ -25,7 +25,7 @@ print('mnist dataset loaded in: ', t1-t0)
 
 print('Loading model :')
 t0 = time.time()
-autoencoder = load_model('autoencoder.h5')
+autoencoder = load_model('Trained_Model/autoencoder.h5')
 encoder = Model(inputs=autoencoder.input, outputs=autoencoder.get_layer('encoder').output)
 t1 = time.time()
 print('Model loaded in: ', t1-t0)

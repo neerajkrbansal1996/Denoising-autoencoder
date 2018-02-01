@@ -48,6 +48,6 @@ def train_model():
                     validation_data=(x_test_noisy, x_test),
                     callbacks=[TensorBoard(log_dir='/tmp/tb', histogram_freq=0, write_graph=False)])
 
-    autoencoder.save('autoencoder.h5')
+    autoencoder.save('Trained_Model/autoencoder.h5')
 
 train_model()
