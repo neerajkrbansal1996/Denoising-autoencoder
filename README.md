@@ -8,4 +8,4 @@ A denoising autoencoder is a feed forward neural network that learns to denoise 
 2. (Optional) if you want to train your neural network onto yourself run <b>python auto_encoder.py</b> after opening the project Directory and make sure you delete autoencoder.h5(In Trainded_Model Folder) before training your neural network.
 3. If you want to check what output does your neural network produce run <b>python test_model.py</b>
 
-
+<b>Note:</b> The Pretrained model is trained on only 20 epochs and if you want to see your neural network better it is wise to train on 100 epochs.
