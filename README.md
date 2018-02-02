@@ -5,8 +5,10 @@ A denoising autoencoder is a feed forward neural network that learns to denoise 
 
 # Dependencies
 <ul>Keras</ul>
+<ul>numpy</ul>
+<ul>matplotlib</ul>
 
-# Development Guide
+# Usage
 1. First Download this repository onto your local system.
 2. (Optional) if you want to train your neural network onto yourself run <b>python auto_encoder.py</b> after opening the project Directory and make sure you delete autoencoder.h5(In Trainded_Model Folder) before training your neural network.
 3. If you want to check what output does your neural network produce run <b>python test_model.py</b>
