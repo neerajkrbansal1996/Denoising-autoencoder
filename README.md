@@ -4,7 +4,7 @@ A denoising autoencoder is a feed forward neural network that learns to denoise 
 ![Denoising autoencoder](https://cdn-images-1.medium.com/max/1800/1*G0V4dz4RKTKGpebeoSWB0A.png)
 
 # Dependencies
-<ul>Keras<ul>
+<ul>Keras</ul>
 
 # Development Guide
 1. First Download this repository onto your local system.
